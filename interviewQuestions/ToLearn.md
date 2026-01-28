@@ -1,3 +1,7 @@
+!!после ревью структуры папок ссылки сбились
+
+---
+
 # Kotlin
 - [hashmap](/basics/collections/hashDataStructures/About.md/#hashmap)
 - [Object](/basics/syntaxKotlin/classes.md/#object)

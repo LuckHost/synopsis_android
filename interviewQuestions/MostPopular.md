@@ -1,3 +1,7 @@
+!!после ревью структуры папок ссылки сбились
+
+---
+
 # Ссылки в Kotlin
 
 [файлик](/basics/lowLevelConcepts/ram_arc.md/)
