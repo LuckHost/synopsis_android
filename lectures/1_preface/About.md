@@ -66,3 +66,4 @@ Android - операционная система под мобильные и �
 
 Для работы понадобится Android Studio и много оперативки на ПК (от 16гб минимум).
 
+![источник https://www.costafotiadis.com/post/exercises-in-futility-one-time-events-in-android](./images/flutter_is_not_better.avif)
