@@ -1,27 +1,25 @@
-!!после ревью структуры папок ссылки сбились
-
 ---
 ### Базовые вопросы
 
-Нужно ли придерживаться SOLID-принципов? Почему да/нет? [solid принципы](/basics/principlesOfGoodCode/SOLID/About.md)
+Нужно ли придерживаться SOLID-принципов? Почему да/нет? [solid принципы](../abstract_things/principlesOfGoodCode/SOLID/About.md)
 
 Какие паттерны использовали на практике? Приведите примеры.
 
-Опишите паттерны MVP и MVVM. Какие из них использовали? Какой предпочитаете? Знаете ли/использовали другие паттерны? [MVP](/patterns/architecture/MVP.md) | [MVVM](/patterns/architecture/MVVM.md)
+Опишите паттерны MVP и MVVM. Какие из них использовали? Какой предпочитаете? Знаете ли/использовали другие паттерны? [MVP](../abstract_things/patterns/architecture/MVP.md) | [MVVM](../abstract_things/patterns/architecture/MVVM.md)
 
 Почему слой Model должен быть отделен от View или Presenter?
 
-Что такое инверсия зависимости (dependency inversion)? [DIP](/basics/principlesOfGoodCode/SOLID/DIP.md)
+Что такое инверсия зависимости (dependency inversion)? [DIP](../abstract_things/principlesOfGoodCode/SOLID/DIP.md)
 
 Объясните пример паттерна Singleton. Где его использовать в Android?
 
-Объясните пример паттерна Observer. Где его использовать в Android? [Observer](/patterns/Observer.md)
+Объясните пример паттерна Observer. Где его использовать в Android? [Observer](../abstract_things/patterns/Observer.md)
 
-Объясните пример паттерна Builder. Где его использовать в Android? [Builder](/patterns/Builder.md)
+Объясните пример паттерна Builder. Где его использовать в Android? [Builder](../abstract_things/patterns/Builder.md)
 
 Как вы понимаете термин «архитектура приложения»? Зачем это вообще нужно? Почему инженеры пытаются усложнить процесс разработки и тратят время на проектирование архитектуры? Может, лучше сэкономить ресурсы и пойти по простому пути — держать весь код в одном файле?
 
-Что такое иммутабельный объект? Для чего его используют? Как сделать иммутабельный объект в Java? [answer](/basics/syntaxJava/ImmutableObject.md)
+Что такое иммутабельный объект? Для чего его используют? Как сделать иммутабельный объект в Java? [answer](../programming/syntaxJava/ImmutableObject.md)
 
 MVP vs MVVM – в чем основное отличие?
 
@@ -29,7 +27,7 @@ MVP vs MVVM – в чем основное отличие?
 
 Есть много алгоритмов сортировки. Возможно ли выбрать один самый быстрый и использовать его повсюду? Почему да/нет?
 
-В чем сложность поиска произвольного элемента в ArrayList? В LinkedList? [answer](/basics/collections/List.md/#сравнение)
+В чем сложность поиска произвольного элемента в ArrayList? В LinkedList? [answer](../basics/collections/List.md#сравнение)
 
 Какие алгоритмы используют в Android/Java коллекциях под капотом?
 
@@ -54,30 +52,30 @@ HashMap. Используете ли вы на практике? Если да, 
 
 ## Работа с сетью
 
-Расскажите, какие методы можно применить в REST API? Зачем какой нужен? [answer](/basics/networkPatterns/REST.md)
+Расскажите, какие методы можно применить в REST API? Зачем какой нужен? [answer](../abstract_things/networkPatterns/REST.md)
 
-Что можно использовать, кроме REST API, для работы с сервером? [GraphQL](/basics/networkPatterns/GraphQL.md)
+Что можно использовать, кроме REST API, для работы с сервером? [GraphQL](../abstract_things/networkPatterns/GraphQL.md)
 
 
 ### Многопоточность
 
-Что такое Thread Pool? Каковы его особенности? [answer](/basics/syntaxJava/Asynchrony/ThreadPool.md)
+Что такое Thread Pool? Каковы его особенности? [answer](../programming/syntaxJava/Asynchrony/ThreadPool.md)
 
-Что такое Executor/ExecutorService? Какую задачу выполняют и как использовать? [answer](/basics/syntaxJava/Asynchrony/ExecutorAndExecutorService.md)
+Что такое Executor/ExecutorService? Какую задачу выполняют и как использовать? [answer](../programming/syntaxJava/Asynchrony/ExecutorAndExecutorService.md)
 
-Какие есть виды Executor? [answer](/basics/syntaxJava/Asynchrony/ExecutorAndExecutorService.md)
+Какие есть виды Executor? [answer](../programming/syntaxJava/Asynchrony/ExecutorAndExecutorService.md)
 
-Какая разница между методами start() и run() в классе Thread? [answer](/basics/syntaxJava/Asynchrony/Threads.md)
+Какая разница между методами start() и run() в классе Thread? [answer](../programming/syntaxJava/Asynchrony/Threads.md)
 
-На что указывает ключевое слово synchronized? Какова его основная функция? [answer](/processAndStreaming/synchronized.md)
+На что указывает ключевое слово synchronized? Какова его основная функция? [answer](../programming/processAndStreaming/synchronized.md)
 
-Модификатор volatile. Приходилось ли использовать? Зачем нужен? [answer](/basics/VolatileSynchronizedAtomic.md)
+Модификатор volatile. Приходилось ли использовать? Зачем нужен? [answer](../programming/processAndStreaming/VolatileSynchronizedAtomic.md)
 
 Знаете ли вы о таком понятии, как «эффект гонки» (race condition)? Как это предотвратить? Какие механизмы в Java для предотвращения этого?
 
 Что такое атомарная операция?
 
-Как остановить поток в Java? Можно ли продолжить выполнение потока после его остановки? [answer](/basics/syntaxJava/Asynchrony/ThreadsTermination.md)
+Как остановить поток в Java? Можно ли продолжить выполнение потока после его остановки? [answer](../programming/syntaxJava/Asynchrony/ThreadsTermination.md)
 
 Знаете ли вы о потокобезопасных коллекциях в Java/Android? Приходилось ли их использовать?
 
@@ -129,11 +127,11 @@ HashMap. Используете ли вы на практике? Если да, 
 
 Как реализовать отложенную задачу?
 
-Что такое Doze Mode? [answer](/android/features/dozeMode.md)
+Что такое Doze Mode? [answer](../android/features/dozeMode.md)
 
-Что такое App Standby mode? [answer](/android/features/dozeMode.md/#app-standby)
+Что такое App Standby mode? [answer](../android/features/dozeMode.md#app-standby)
 
-Что такое AIDL и зачем он нужен? Какие типы данных поддерживаются? [answer](/android/aidl.md)
+Что такое AIDL и зачем он нужен? Какие типы данных поддерживаются? [answer](../android/aidl.md)
 
 Что такое Multidex?
 
@@ -147,7 +145,7 @@ HashMap. Используете ли вы на практике? Если да, 
 
 Что такое SSL/TLS Pinning? Как его реализовать в Android?
 
-Что такое ViewBinding? [answer](/UI/XML/ViewBinding.md)
+Что такое ViewBinding? [answer](../UI/XML/ViewBinding.md)
 
 Для чего нужны методы onSaveInstanceState/onRestoreInstanceState? Что такое permissions? Как запросить permissions?
 
@@ -155,7 +153,7 @@ HashMap. Используете ли вы на практике? Если да, 
 
 Какие типы данных мы можем положить в Bundle?
 
-В чем разница между Serializable и Parcelable? [answer](/android/appComponents/SerializableAndParcelabe.md)
+В чем разница между Serializable и Parcelable? [answer](../android/appComponents/SerializableAndParcelabe.md)
 
 Если фрагмент для работы нуждается во входных данных, каким образом будет правильно передать их фрагменту?
 
@@ -235,13 +233,13 @@ HashMap. Используете ли вы на практике? Если да, 
 
 Какие типы конструкторов вы знаете?
 
-Что такое Flow? Что такое SharedFlow? [Flow](/coroutines/Flow/About.md) | [SharedFlow](/coroutines/Flow/SharedFlow.md)
+Что такое Flow? Что такое SharedFlow? [Flow](../programming/coroutines/Flow/About.md) | [SharedFlow](../programming/coroutines/Flow/SharedFlow.md)
 
-В чем разница методов run, let, apply, also, with, use? [scope functions](/basics/syntaxKotlin/scopeFunctions.md)
+В чем разница методов run, let, apply, also, with, use? [scope functions](../programming/syntaxKotlin/scopeFunctions.md)
 
 Что произойдет, если в классе переопределить метод hashCode следующим образом: override fun hashCode(): Int = Random.nextInt()? А если так: override fun hashCode(): Int = 1?
 
-Расскажите о Flow. В чем разница между Hot и Cold Flow? [Flow](/coroutines/Flow/About.md) | [разница Hot и Cold](/processAndStreaming/HotAndColdObservables.md)
+Расскажите о Flow. В чем разница между Hot и Cold Flow? [Flow](../programming/coroutines/Flow/About.md) | [разница Hot и Cold](../programming/processAndStreaming/HotAndColdObservables.md)
 
 Что такое деструктурирующее объявление? Что нужно сделать, чтобы иметь возможность использовать его для своего класса? Какие проблемы могут возникнуть с таким объявлением?
 
